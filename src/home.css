@@ -1,4 +1,22 @@
+body{
+    font-family: monospace;
+}
+
+h1{
+    font-weight: bolder;
+}
+
 .card-img{
+    margin-top: 80px;
     width: 100%;
-    max-height: 650px;
+    max-height: 700px;
+    filter: brightness(60%);
+}
+
+.img-text{
+    position: absolute;
+    top: 40%;
+
+    width: 80%;
+
 }
