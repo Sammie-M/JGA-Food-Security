@@ -29,6 +29,10 @@ h1{
     text-align: center;
 }
 
+img{
+    width: 100%;
+}
+
 h4{
     text-align: left;
     font-weight: 500;
@@ -37,4 +41,16 @@ h4{
 
 li{
     text-align: left;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: center;
+}
+
+span img{
+    height: 300px;
+    padding-right: 100px;
 }
