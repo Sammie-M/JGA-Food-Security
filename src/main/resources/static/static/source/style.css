@@ -54,16 +54,3 @@ span img{
     height: 300px;
     padding-right: 100px;
 }
-
-/*Gardens*/
-.info{
-    text-align: center;
-    margin: 0 auto;
-    width: 90%;
-}
-.garden-img{
-    margin-top: 80px;
-    width: 100%;
-    max-height: 60vh;
-    filter: brightness(60%);
-}

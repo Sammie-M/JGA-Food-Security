@@ -5,7 +5,7 @@
   right: 20px;
   width: 320px;
   height: 320px;
-  background: #1e441e;
+  background: #335a33;
   border: 1px solid #3d813d;
   border-radius: 12px;
   box-shadow: 0 4px 12px #274927;
@@ -16,7 +16,7 @@
 }
 
 .header {
-  background: #182918;
+  background: #1e4d1e;
   padding: 0.75rem;
   text-align: center;
   border-bottom: 1px solid #447944;
@@ -43,7 +43,7 @@
   max-width: 70%;
   word-wrap: break-word;
   font-size: 0.9rem;
-  background: #112211;
+  background: #213021;
   color: #97ce97;
 }
 .chat-message.user .message-content { 
@@ -55,7 +55,7 @@
   display: flex;
   padding: 0.5rem;
   border-top: 1px solid #1e4d1e;
-  background: #182918;
+  background: #1e4d1e;
 }
 .input-area input {
   flex: 1;

@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="The TechHub Gardens">
-    <meta name="keywords" content="TechHub">
+    <meta name="description" content="The TechHub Gardens" />
+    <meta name="keywords" content="TechHub" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,16 +17,19 @@
       href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/tech-hub-chatbot-java/target/classes/static/home.css">
-    <link rel="stylesheet" href="/tech-hub-chatbot-java/target/classes/static/style.css" />
+    <link
+      rel="stylesheet"
+      href="./source/style.css"
+    />
+
     <title>Food Gardening | The TechHub</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.html">
           <img
-            src="/tech-hub-chatbot-java/target/classes/static/img/TechHub_Logo.png"
+            src="./img/TechHub_Logo.png"
             alt="Logo"
             width="200"
             height="50"
@@ -70,7 +73,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="./about.html">About</a>
               </li>
 
               <li class="nav-item dropdown">
@@ -85,30 +88,27 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./HouseholdGarderns.html">Household Gardens</a>
+                    <a class="dropdown-item" href="./household.html"
+                      >Household Gardens</a
+                    >
                   </li>
-                  <li><a class="dropdown-item" href="#">School Gardens</a></li>
+                  <li><a class="dropdown-item" href="./school.html">School Gardens</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Community Projects</a>
+                    <a class="dropdown-item" href="./community.html">Community Projects</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"
+                    <a class="dropdown-item" href="./urban.html"
                       >Urban Farming And Ennovation</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Institutional Programs</a>
+                    <a class="dropdown-item" href="./ngo.html">Institutional Programs</a>
                   </li>
                 </ul>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="#">Data Analysis</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resourses & Tips</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -118,7 +118,7 @@
 
     <div class="card text-bg-dark">
       <img
-        src="/tech-hub-chatbot-java/target/classes/static/img/pexels-asphotograpy-1002703.jpg"
+        src="./img/pexels-asphotograpy-1002703.jpg"
         class="card-img"
         alt="Green garden"
       />
@@ -157,7 +157,10 @@
         benefits and a lack of accessible educational resources.
       </p>
       <div class="flex">
-        <span><img src="/tech-hub-chatbot-java/target/classes/static/img/undraw_inflation_ht0o.svg" alt="" /></span
+        <span
+          ><img
+            src="./img/undraw_inflation_ht0o.svg"
+            alt="" /></span
         ><span
           ><h4>
             Major barriers that prevent people from starting their own gardens
@@ -172,20 +175,10 @@
       </div>
     </div>
 
-    <div class="chat-container" id="chat-container">
-    <div class="header">🤖 Tech Hub AI</div>
-    <div class="chat-box" id="chat-box"></div>
-    <div class="input-area">
-      <input type="text" id="user-input" placeholder="Type a message...">
-      <button id="send-button">Send</button>
-    </div>
-  </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
-    <script src="/tech-hub-chatbot-java/target/classes/static/app.js"></script>
   </body>
 </html>
