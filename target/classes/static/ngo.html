@@ -1,30 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="The TechHub Gardens" />
-    <meta name="keywords" content="TechHub" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="./source/style.css"
-    />
-
-    <title>Food Gardening | The TechHub</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="./source/style.css">
+    <link rel="stylesheet" href="./source/chatbot.css" />
+    <title>Institutional Programs</title>
+</head>
+<body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -116,69 +105,20 @@
       </div>
     </nav>
 
-    <div class="card text-bg-dark">
-      <img
-        src="./img/pexels-asphotograpy-1002703.jpg"
-        class="card-img"
-        alt="Green garden"
-      />
-      <div class="card-img-overlay img-text">
-        <h1>
-          Build Gardens <br />
-          and defeat Food Insecurity
-        </h1>
-        <p>
-          Many individuals in South Africa lack the basic knowledge and skills
-          to develop and maintain food gardens. This leads to a heavy reliance
-          on buying food, which is becoming increasingly expensive due to
-          economic factors. This project aims to address food insecurity by
-          providing practical, technology-driven education to communities about
-          how to start and maintain small-scale gardens.
-        </p>
-      </div>
+    <div class="chat-container" id="chat-container">
+    <div class="header">🤖 Tech Hub AI</div>
+    <div class="chat-box" id="chat-box"></div>
+    <div class="input-area">
+      <input type="text" id="user-input" placeholder="Type a message...">
+      <button id="send-button">Send</button>
     </div>
+  </div>
 
-    <div class="main-body">
-      <h1>
-        Teaching communities how to start and sustain food gardens, thereby
-        improving food security
-      </h1>
-      <p>
-        Food insecurity continues to be a major concern across South Africa,
-        particularly among households with limited income. Although gardening
-        could be a sustainable and cost-effective solution, it is often
-        overlooked due to a lack of knowledge, resources, or support systems.
-        This leads to a heavy reliance on buying food, which is becoming
-        increasingly expensive due to economic factors. As a result, families
-        with limited income often suffer from food insecurity, poor nutrition,
-        and even malnutrition. Gardening is also perceived as time-consuming and
-        complicated, which discourages people from starting their own food
-        production. This problem is made worse by low awareness of gardening’s
-        benefits and a lack of accessible educational resources.
-      </p>
-      <div class="flex">
-        <span
-          ><img
-            src="./img/undraw_inflation_ht0o.svg"
-            alt="" /></span
-        ><span
-          ><h4>
-            Major barriers that prevent people from starting their own gardens
-          </h4>
-          <ul>
-            <li>Lack of knowledge about how to start</li>
-            <li>Limited space and resources</li>
-            <li>Cost of gardening supplies</li>
-            <li>Lack of motivation or support systems</li>
-          </ul></span
-        >
-      </div>
-    </div>
-
-    <script
+  <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
-  </body>
+  <script src="./source/app.js"></script>
+</body>
 </html>
