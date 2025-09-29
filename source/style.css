@@ -67,3 +67,7 @@ span img{
     max-height: 60vh;
     filter: brightness(60%);
 }
+
+iframe{
+    margin: 20px;
+}
