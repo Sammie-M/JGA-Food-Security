@@ -122,89 +122,147 @@
         </div>
       </div>
     </nav>
-    <img src="./img/pexels-markusspiske-113335.jpg" alt="Household garden" class="garden-img" />
+    <img
+      src="./img/pexels-markusspiske-113335.jpg"
+      alt="Household garden"
+      class="garden-img"
+    />
 
-    <div class="info"><section>
-      <h2>📘 Overview</h2>
-      <p>
-        The Resources page demonstrates how mathematics, science, and technology come together in our project.
-        These formulas help users plan, calculate, and manage their gardens effectively.
-      </p>
-    </section>
+    <div class="info">
+      <section>
+        <h2>📘 Overview</h2>
+        <p>
+          The Resources page demonstrates how mathematics, science, and
+          technology come together in our project. These formulas help users
+          plan, calculate, and manage their gardens effectively.
+        </p>
+      </section>
 
-    <!-- Mathematical Formulas -->
-    <section>
-      <h2>🧮 Gardening Formulas & Examples</h2>
+      <!-- Mathematical Formulas -->
+      <section>
+        <h2>🧮 Gardening Formulas & Examples</h2>
 
-      <div class="formula">
-        <strong>1️⃣ Garden Area:</strong><br>
-        <code>Area = Length × Width</code><br>
-        Example: If your garden is 6m long and 4m wide → <strong>Area = 24 m²</strong>
-      </div>
+        <div class="formula">
+          <strong>1️⃣ Garden Area:</strong><br />
+          <code>Area = Length × Width</code><br />
+          Example: If your garden is 6m long and 4m wide →
+          <strong>Area = 24 m²</strong>
+        </div>
 
-      <div class="formula">
-        <strong>2️⃣ Number of Plants:</strong><br>
-        <code>Plants = Area ÷ Plant Spacing</code><br>
-        Example: 24 m² ÷ 0.5m spacing → <strong>48 plants</strong>
-      </div>
+        <div class="formula">
+          <strong>2️⃣ Number of Plants:</strong><br />
+          <code>Plants = Area ÷ Plant Spacing</code><br />
+          Example: 24 m² ÷ 0.5m spacing → <strong>48 plants</strong>
+        </div>
 
-      <div class="formula">
-        <strong>3️⃣ Water Usage per Week:</strong><br>
-        <code>Total Water = Plants × Litres per day × 7</code><br>
-        Example: 48 plants × 0.5 L × 7 = <strong>168 L/week</strong>
-      </div>
+        <div class="formula">
+          <strong>3️⃣ Water Usage per Week:</strong><br />
+          <code>Total Water = Plants × Litres per day × 7</code><br />
+          Example: 48 plants × 0.5 L × 7 = <strong>168 L/week</strong>
+        </div>
 
-      <div class="formula">
-        <strong>4️⃣ Cost Estimation:</strong><br>
-        <code>Total Cost = (Seeds + Fertilizer + Water + Tools)</code>
-      </div>
+        <div class="formula">
+          <strong>4️⃣ Cost Estimation:</strong><br />
+          <code>Total Cost = (Seeds + Fertilizer + Water + Tools)</code>
+        </div>
 
-      <div class="formula">
-        <strong>5️⃣ Yield Prediction:</strong><br>
-        <code>Yield = Plants × Average yield per plant</code>
-      </div>
-    </section>
+        <div class="formula">
+          <strong>5️⃣ Yield Prediction:</strong><br />
+          <code>Yield = Plants × Average yield per plant</code>
+        </div>
+      </section>
 
-    <!-- Interactive Calculator -->
-    <section>
-  <h2>🌾 Smart Garden Planner</h2>
-  <p>Enter your garden details below to calculate area, recommended usage, and budget estimates.</p>
+      <!-- Interactive Calculator -->
+      <section>
+        <h2>🌾 Smart Garden Planner</h2>
+        <p>
+          Enter your garden details below to calculate area, recommended usage,
+          and budget estimates.
+        </p>
 
-  <label for="gardenType">Garden Type:</label>
-  <select id="gardenType">
-    <option value="">-- Select Type --</option>
-    <option value="Household Garden">🏡 Household Garden</option>
-    <option value="School Garden">🏫 School Garden</option>
-    <option value="Community Garden">🌍 Community Garden</option>
-    <option value="Urban Farming">🌆 Urban Farming</option>
-    <option value="NGO Garden">🤝 NGO Garden</option>
-  </select><br><br>
+        <label for="gardenType">Garden Type:</label>
+        <select id="gardenType">
+          <option value="">-- Select Type --</option>
+          <option value="Household Garden">🏡 Household Garden</option>
+          <option value="School Garden">🏫 School Garden</option>
+          <option value="Community Garden">🌍 Community Garden</option>
+          <option value="Urban Farming">🌆 Urban Farming</option>
+          <option value="NGO Garden">🤝 NGO Garden</option></select
+        ><br /><br />
 
-  <label for="length">Garden Length (m):</label>
-  <input type="number" id="length" placeholder="Enter length in meters"><br>
+        <div class="calculator">
+          <label for="length">Garden Length (m):</label>
+          <input
+            type="number"
+            id="length"
+            placeholder="Enter length in meters"
+          /><br />
 
-  <label for="width">Garden Width (m):</label>
-  <input type="number" id="width" placeholder="Enter width in meters"><br>
+          <label for="width">Garden Width (m):</label>
+          <input
+            type="number"
+            id="width"
+            placeholder="Enter width in meters"
+          /><br />
 
-  <button onclick="calculateGarden()">Calculate Garden Details</button>
+          <button onclick="calculateGarden()">Calculate Garden Details</button>
+        </div>
 
-  <div id="result" class="output"></div>
+        <div id="result" class="output"></div>
+      </section>
 
-    <!-- Downloadable Materials -->
-    <section>
-  <h2>📊 Downloadable Budget & Planning Tools</h2>
-  <p>Download detailed guides for each garden type. Each document includes a sample budget, formulas, and tips for managing your garden effectively.</p>
-  <ul>
-    <li><a class="download-link" href="/documents/household_garden_budget.pdf" download>🏡 Household Garden – Budget & Formulas</a></li>
-    <li><a class="download-link" href="/documents/school_garden_budget.pdf" download>🏫 School Garden – Budget & Formulas</a></li>
-    <li><a class="download-link" href="/documents/community_garden_budget.pdf" download>🌍 Community Garden – Budget & Formulas</a></li>
-    <li><a class="download-link" href="/documents/urban_farming_budget.pdf" download>🌆 Urban Farming – Budget & Formulas</a></li>
-    <li><a class="download-link" href="/documents/ngo_garden_budget.pdf" download>🤝 NGO Garden – Budget & Formulas</a></li>
-  </ul>
-</section></div>
-    
-    
-    
+      <!-- Downloadable Materials -->
+      <section>
+        <h2>📊 Downloadable Budget & Planning Tools</h2>
+        <p>
+          Download detailed guides for each garden type. Each document includes
+          a sample budget, formulas, and tips for managing your garden
+          effectively.
+        </p>
+        <ul>
+          <li>
+            <a
+              class="download-link"
+              href="/documents/household_garden_budget.pdf"
+              download
+              >🏡 Household Garden – Budget & Formulas</a
+            >
+          </li>
+          <li>
+            <a
+              class="download-link"
+              href="/documents/school_garden_budget.pdf"
+              download
+              >🏫 School Garden – Budget & Formulas</a
+            >
+          </li>
+          <li>
+            <a
+              class="download-link"
+              href="/documents/community_garden_budget.pdf"
+              download
+              >🌍 Community Garden – Budget & Formulas</a
+            >
+          </li>
+          <li>
+            <a
+              class="download-link"
+              href="/documents/urban_farming_budget.pdf"
+              download
+              >🌆 Urban Farming – Budget & Formulas</a
+            >
+          </li>
+          <li>
+            <a
+              class="download-link"
+              href="/documents/ngo_garden_budget.pdf"
+              download
+              >🤝 NGO Garden – Budget & Formulas</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"

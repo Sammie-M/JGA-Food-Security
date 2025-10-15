@@ -82,7 +82,7 @@ function calculateGarden() {
 
   let output = "<h3>🌻 Garden Summary</h3><ul>";
   for (let i = 0; i < info.length; i++) {
-    output += `<li>${info[i]}</li>`;
+    output += `<ul><li>${info[i]}</li></ul>`;
   }
   output += "</ul>";
 

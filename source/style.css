@@ -149,7 +149,7 @@ input {
   padding: 0.6rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 100%;
+  width: 40%;
   margin-bottom: 10px;
 }
 
@@ -209,4 +209,8 @@ a.download-link:hover {
 a {
   text-decoration: none;
   color: rgb(29, 153, 29);
+}
+
+#message{
+    width: 40%;
 }
