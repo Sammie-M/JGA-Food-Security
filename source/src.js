@@ -69,7 +69,7 @@ function calculateGarden() {
 
   // Output using a simple loop for better structure
   const info = [
-    `🌍 <h4>Garden Type: ${type.charAt(0).toUpperCase() + type.slice(1)}</h4>`,
+    
     `📏 Garden Area: ${area.toFixed(2)} m²`,
     `🌱 Estimated Plants: ${plants}`,
     `💧 Water Needed per Plant: ${waterPerPlant} L/day`,
@@ -80,9 +80,10 @@ function calculateGarden() {
     `💰 Estimated Budget: R${estimatedBudget}`,
   ];
 
-  let output = "<h3>🌻 Garden Summary</h3><ul>";
+  let output =
+    `<h3>🌻 Garden Summary</h3>🌍 <h4>Garden Type: ${type.charAt(0).toUpperCase() + type.slice(1)}</h4><ul>`;
   for (let i = 0; i < info.length; i++) {
-    output += `<ul><li>${info[i]}</li></ul>`;
+    output += `<li>${info[i]}</li>`;
   }
   output += "</ul>";
 
