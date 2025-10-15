@@ -105,13 +105,7 @@ input{
 }
 
 /*resources page*/
-body {
-      font-family: Arial, sans-serif;
-      background-color: #f6fdf8;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
+
 
     header {
       background-color: #1e824c;
@@ -150,7 +144,7 @@ body {
     }
 
     h2 {
-      color: #1e824c;
+      color: #0c3a22;
       border-bottom: 2px solid #1e824c;
       padding-bottom: 5px;
     }
@@ -219,3 +213,5 @@ body {
     a.download-link:hover {
       text-decoration: underline;
     }
+
+    
