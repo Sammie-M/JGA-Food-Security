@@ -18,6 +18,10 @@
     />
     <link rel="stylesheet" href="./source/style.css" />
     <link rel="stylesheet" href="./source/chatbot.css" />
+    <script
+      src="https://kit.fontawesome.com/7ea8ea32c0.js"
+      crossorigin="anonymous"
+    ></script>
     <title>About | The TechHub</title>
   </head>
   <body>
@@ -139,11 +143,11 @@
         title="Email TechHub"
         class="mail"
         ><i class="fa-regular fa-envelope"></i> Email:
-        techhub.project@gmail.con</a
+        techhub.project@gmail.com</a
       ><br /><br />
       <a href="tel:+27739497374" title="Give TechHub a call" class="c"
-        ><i class="fa-solid fa-phone"></i> Call: 073 949 7374
-      </a><br><br>
+        ><i class="fa-solid fa-phone"></i> Call: 073 949 7374 </a
+      ><br /><br />
       <a
         href="https://wa.me/+27739497374"
         title="Check TechHub on Whatsapp"
@@ -151,6 +155,51 @@
         target="_blank"
         ><i class="fa-brands fa-whatsapp"></i> Whatsapp: 073 949 7374</a
       >
+
+      <br /><br />
+      <section class="donation-section">
+        <h2>Support Our Mission</h2>
+        <p>
+          Your donation helps us provide educational materials, seeds, tools,
+          and support to communities in need.
+        </p>
+        <div class="donation-details">
+          <p><strong>Account Name:</strong> TechHub Garden Project</p>
+          <p><strong>Bank:</strong> FNB (First National Bank)</p>
+          <p><strong>Account Number:</strong> 1234567890</p>
+          <p><strong>Branch Code:</strong> 250655</p>
+          <p><strong>Reference:</strong> Donation – Your Name</p>
+        </div>
+        <!-- You could add an online donate button if you set up a payment processor -->
+        <!-- <button class="btn-donate-online">Donate Online</button> -->
+      </section>
+      <br />
+      <section class="feedback-form">
+        <h2>💬 Send Us a Message / Feedback</h2>
+        <form
+          action="mailto:techhub.project@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Full Name:</label><br />
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Email Address:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="message">Your Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Type your feedback or questions here..."
+            required
+          ></textarea
+          ><br />
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
     </div>
 
     <script

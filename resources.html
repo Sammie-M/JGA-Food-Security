@@ -122,7 +122,81 @@
         </div>
       </div>
     </nav>
+    <img src="./img/pexels-markusspiske-113335.jpg" alt="Household garden" class="garden-img" />
+    <section>
+      <h2>📘 Overview</h2>
+      <p>
+        The Resources page demonstrates how mathematics, science, and technology come together in our project.
+        These formulas help users plan, calculate, and manage their gardens effectively.
+      </p>
+    </section>
 
+    <!-- Mathematical Formulas -->
+    <section>
+      <h2>🧮 Gardening Formulas & Examples</h2>
+
+      <div class="formula">
+        <strong>1️⃣ Garden Area:</strong><br>
+        <code>Area = Length × Width</code><br>
+        Example: If your garden is 6m long and 4m wide → <strong>Area = 24 m²</strong>
+      </div>
+
+      <div class="formula">
+        <strong>2️⃣ Number of Plants:</strong><br>
+        <code>Plants = Area ÷ Plant Spacing</code><br>
+        Example: 24 m² ÷ 0.5m spacing → <strong>48 plants</strong>
+      </div>
+
+      <div class="formula">
+        <strong>3️⃣ Water Usage per Week:</strong><br>
+        <code>Total Water = Plants × Litres per day × 7</code><br>
+        Example: 48 plants × 0.5 L × 7 = <strong>168 L/week</strong>
+      </div>
+
+      <div class="formula">
+        <strong>4️⃣ Cost Estimation:</strong><br>
+        <code>Total Cost = (Seeds + Fertilizer + Water + Tools)</code>
+      </div>
+
+      <div class="formula">
+        <strong>5️⃣ Yield Prediction:</strong><br>
+        <code>Yield = Plants × Average yield per plant</code>
+      </div>
+    </section>
+
+    <!-- Interactive Calculator -->
+    <section>
+      <h2>💻 Try the Garden Calculator</h2>
+      <p>Estimate your number of plants and weekly water usage below:</p>
+
+      <label>Garden Length (m):</label>
+      <input type="number" id="length" placeholder="Enter length in meters">
+
+      <label>Garden Width (m):</label>
+      <input type="number" id="width" placeholder="Enter width in meters">
+
+      <label>Plant Spacing (m):</label>
+      <input type="number" id="spacing" placeholder="Enter spacing in meters">
+
+      <label>Water Needed per Plant (litres/day):</label>
+      <input type="number" id="water" placeholder="Enter water per plant per day">
+
+      <button onclick="calculateGarden()">Calculate</button>
+
+      <div id="result" class="output"></div>
+    </section>
+
+    <!-- Downloadable Materials -->
+    <section>
+      <h2>📊 Downloadable Charts & Tools</h2>
+      <p>Download our learning tools to practice calculations and visualize your garden plans:</p>
+      <ul>
+        <li><a class="download-link" href="#" download>🌾 Yield Estimation Table (Excel)</a></li>
+        <li><a class="download-link" href="#" download>💧 Water Usage Chart (PDF)</a></li>
+        <li><a class="download-link" href="#" download>📈 Garden Cost Planning Sheet (Excel)</a></li>
+      </ul>
+    </section>
+    
     
 
     <script
@@ -131,5 +205,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./source/app.js"></script>
+    <script src="./source/src.js"></script>
   </body>
 </html>
