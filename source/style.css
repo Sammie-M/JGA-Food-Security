@@ -164,7 +164,7 @@ button {
 }
 
 button:hover {
-  background-color: #49996d;
+  background-color: #bdffdb;
 }
 
 .output {
@@ -176,8 +176,8 @@ button:hover {
 }
 
 footer {
-  background-color: #1e824c;
-  color: white;
+  background-color: #e0e7e3;
+  color: #1e824c;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
