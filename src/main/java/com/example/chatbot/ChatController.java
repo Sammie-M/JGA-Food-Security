@@ -49,8 +49,20 @@ public class ChatController {
             }
 
             JSONObject json = new JSONObject(response.body().string());
-            String reply = json.optString("output_text", "Sorry, I could not generate a response.");
+
+            String reply = "Sorry, I could not generate a response.";
+            if (json.has("output")) {
+                var output = json.getJSONArray("output");
+                if (output.length() > 0) {
+                    var content = output.getJSONObject(0).getJSONArray("content");
+                    if (content.length() > 0) {
+                        reply = content.getJSONObject(0).optString("text", reply);
+                    }
+                }
+            }
+
             return Map.of("message", reply);
+
         }
     }
 }
