@@ -40,3 +40,30 @@ async function sendMessage() {
     displayMessage('Connection error. Please check the server.', 'bot');
   }
 }
+
+//chatbot
+const chatToggle = document.getElementById("chat-toggle");
+const chatContainer = document.getElementById("chat-container");
+
+chatToggle.addEventListener("click", () => {
+  chatContainer.classList.toggle("active");
+
+  // Optional: hide toggle when chat is open
+  if (chatContainer.classList.contains("active")) {
+    chatToggle.style.display = "none";
+  }
+});
+
+// Add a small close button to chat header
+const header = document.querySelector(".header");
+const closeBtn = document.createElement("span");
+closeBtn.textContent = "✖";
+closeBtn.style.float = "right";
+closeBtn.style.cursor = "pointer";
+closeBtn.style.marginRight = "8px";
+header.appendChild(closeBtn);
+
+closeBtn.addEventListener("click", () => {
+  chatContainer.classList.remove("active");
+  chatToggle.style.display = "flex";
+});
