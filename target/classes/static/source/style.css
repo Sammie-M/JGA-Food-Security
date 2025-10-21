@@ -216,14 +216,14 @@ a {
 }
 
 
-.card img{
+.card-img-top{
   width: 85%;
   border-radius: 100px;
   margin: 10px auto;
   box-shadow: 5px 1px 10px 3px #088341;
 }
 
-.card {
+.members {
   width: 75%;
   margin: 0 auto;
   text-align: center;
