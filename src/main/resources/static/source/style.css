@@ -216,14 +216,14 @@ a {
 }
 
 
-.card img{
+.card-img-top{
   width: 85%;
   border-radius: 100px;
   margin: 10px auto;
   box-shadow: 5px 1px 10px 3px #088341;
 }
 
-.card {
+.members {
   width: 75%;
   margin: 0 auto;
   text-align: center;
@@ -231,4 +231,25 @@ a {
   color: #077e3c;
   text-shadow: 3px 3px 5px #698f7b;
   box-shadow: 5px 5px 10px 5px #95ceab;
+}
+
+.calculator{
+  background-color: #14802c;
+  color: #70a770;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding-bottom: 10px;
+}
+
+.output{
+  background-color: #4caa61;
+  color: #0c380c;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 30px;
+}
+
+.calculator button{
+  background-color: #0c380c;
 }
