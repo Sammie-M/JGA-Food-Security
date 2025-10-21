@@ -3,8 +3,8 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 520px;
-  height: 520px;
+  width: 320px;
+  height: 320px;
   background: #1e441e;
   border: 1px solid #3d813d;
   border-radius: 12px;
@@ -73,40 +73,4 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-}
-
-
-/* --- Floating Toggle Button --- */
-.chat-toggle {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #1e441e;
-  color: #fff;
-  font-size: 1.5rem;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  z-index: 10000;
-  transition: transform 0.2s ease, background 0.3s;
-}
-
-.chat-toggle:hover {
-  transform: scale(1.1);
-  background: #238636;
-}
-
-/* --- Hide Chat by Default --- */
-.chat-container {
-  display: none;
-}
-
-/* --- Show Chat when Active --- */
-.chat-container.active {
-  display: flex;
 }

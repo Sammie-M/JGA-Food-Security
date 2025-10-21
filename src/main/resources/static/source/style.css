@@ -113,7 +113,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #0f8b3f;
+  background-color: #a4e2bc;
   border-radius: 20px;
 }
 
@@ -213,4 +213,22 @@ a {
 
 #message{
     width: 40%;
+}
+
+
+.card img{
+  width: 85%;
+  border-radius: 100px;
+  margin: 10px auto;
+  box-shadow: 5px 1px 10px 3px #088341;
+}
+
+.card {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #98d39b;
+  color: #077e3c;
+  text-shadow: 3px 3px 5px #698f7b;
+  box-shadow: 5px 5px 10px 5px #95ceab;
 }
